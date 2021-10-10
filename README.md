@@ -16,3 +16,7 @@ Next Steps:
 * Clean ingredients name and quantity
 * Improve database data insertion
 * Model validations
+
+## Database Structure
+
+![](../dinner_api_database.png)
