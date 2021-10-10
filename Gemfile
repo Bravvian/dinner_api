@@ -45,3 +45,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'activerecord-import'
 
 gem 'mysql2'
+gem 'activerecord-mysql2-adapter'
+
