@@ -19,5 +19,4 @@ Next Steps:
 
 ## Database Structure
 
-https://github.com/Bravvian/dinner_api/tree/master/app/views/layouts
 ![alt text](https://github.com/Bravvian/dinner_api/blob/master/app/views/dinner_api_database.png?raw=true)
