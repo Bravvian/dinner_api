@@ -5,3 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Author.delete_all
+Tag.delete_all
+Ingredient.delete_all
+
+puts 'Seeding....'
+RecipesParser.execute

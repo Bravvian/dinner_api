@@ -1,24 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+Commands needed to start the API:
 
-* Ruby version
+* Install Gems: Run `bundle install`.
 
-* System dependencies
+* Create database: Run `rails db:create && rails db:migrate`. 
 
-* Configuration
+* Run Tests: Run `bundle exec rspec`.
 
-* Database creation
+* Serve API: Run `rails server`. 
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Next Steps:
+* Error Handling
+* Clean ingredients name and quantity
+* Improve database data insertion
+* Model validations
