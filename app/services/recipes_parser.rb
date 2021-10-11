@@ -4,14 +4,14 @@ class RecipesParser
 
   class << self
     def execute
-      data = File.foreach('recipes.json').map{|raw_line| JSON.parse(raw_line)}
+      # data = File.foreach('recipes.json').map{|raw_line| JSON.parse(raw_line)}
 
-      bulk_import_handler(data, 'author', Author)
-      bulk_import_handler(data, 'tags', Tag)
-      bulk_import_handler(data, 'ingredients', Ingredient)
+      #bulk_import_handler(data, 'author', Author)
+      # bulk_import_handler(data, 'tags', Tag)
+      # bulk_import_handler(data, 'ingredients', Ingredient)
       
       puts 'Creating recipes, this may take a few minutes....'
-      File.foreach("recipes.json") do |line|
+      File.foreach("recipes_2.json") do |line|
         #TODO: Change logic to import faster than this...
         create_record(JSON.parse(line))
       end
