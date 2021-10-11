@@ -6,7 +6,6 @@ module Api
       def index
         filtered_params = permitted_params
         ingredients = ingredients_array(filtered_params['ingredients'])
-        
         recipes = if ingredients.empty? 
                     Recipe.first(rand(0..30))
                   else 
@@ -19,7 +18,11 @@ module Api
       def show
         recipe = Recipe.find_by(id: params[:id])
         
-        render status: :ok, json: RecipeSerializer.new(recipe).serialize
+        if recipe
+          render status: :ok, json: RecipeSerializer.new(recipe).serialize
+        else
+          render status: :not_found, message: 'The recipe with that id does not exists'
+        end
       end
 
       def create;end

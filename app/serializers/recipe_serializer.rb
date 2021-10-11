@@ -8,6 +8,7 @@ class RecipeSerializer < ActiveModel::Serializer
 
   def serialize
     {
+      id: record.id,
       name: record.name,
       cook_time: record.cook_time,
       people_quantity: record.people_quantity,

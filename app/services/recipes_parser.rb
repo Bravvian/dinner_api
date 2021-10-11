@@ -3,15 +3,15 @@ require "activerecord-import"
 class RecipesParser
 
   class << self
-    def execute
-      # data = File.foreach('recipes.json').map{|raw_line| JSON.parse(raw_line)}
+    def execute(file='recipes.json')
+      data = File.foreach(file).map{|raw_line| JSON.parse(raw_line)}
 
-      #bulk_import_handler(data, 'author', Author)
-      # bulk_import_handler(data, 'tags', Tag)
-      # bulk_import_handler(data, 'ingredients', Ingredient)
+      bulk_import_handler(data, 'author', Author)
+      bulk_import_handler(data, 'tags', Tag)
+      bulk_import_handler(data, 'ingredients', Ingredient)
       
       puts 'Creating recipes, this may take a few minutes....'
-      File.foreach("recipes_2.json") do |line|
+      File.foreach(file) do |line|
         #TODO: Change logic to import faster than this...
         create_record(JSON.parse(line))
       end

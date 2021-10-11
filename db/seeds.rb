@@ -5,9 +5,14 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-Author.delete_all
-Tag.delete_all
-Ingredient.delete_all
+Author.destroy_all
+Tag.destroy_all
+Ingredient.destroy_all
 
-puts 'Seeding....'
-RecipesParser.execute
+if Rails.env=='test'
+  puts 'Seeding Test....'
+  RecipesParser.execute('spec/mocks/recipes_mock.json')
+else
+  puts 'Seeding....'
+  RecipesParser.execute 
+end
