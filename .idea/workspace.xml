@@ -7,50 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c0ff445-2eb7-4a57-bfe0-dd15e47dfd0d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dinner_api.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" beforeDir="false" afterPath="$PROJECT_DIR$/spec/mocks/recipes_mock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/api/v1/recipes_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/api/v1/recipes_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/author.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/author.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/ingredient.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/ingredient.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/recipe.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/recipe.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/tag.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/tag.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/serializers/recipe_serializer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/serializers/recipe_serializer.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/recipes_parser.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/recipes_parser.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/identifier.sqlite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/channels/application_cable/connection_test.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/spec/requests/show_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/recipes_controller_test.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/welcome_controller_test.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/authors.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/files/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/ingredients.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/recipe_ingredients.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/recipe_tags.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/recipes.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/tags.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/integration/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/mailers/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/author_test.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/ingredient_test.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/recipe_ingredient_test.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/recipe_tag_test.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/recipe_test.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/tag_test.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" />
-    </list>
+    <list default="true" id="5c0ff445-2eb7-4a57-bfe0-dd15e47dfd0d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -256,7 +213,7 @@
       <workItem from="1633898658020" duration="14999000" />
       <workItem from="1633945558055" duration="47000" />
       <workItem from="1633945651378" duration="4062000" />
-      <workItem from="1633950243519" duration="3379000" />
+      <workItem from="1633950243519" duration="5047000" />
     </task>
     <servers />
   </component>
